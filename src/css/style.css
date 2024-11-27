@@ -8,4 +8,23 @@
 /* Font Google */
 body {
     font-family: 'Roboto', sans-serif;
+    background-color: rgba(#c0a886);
+}
+
+.container {
+    display: flex;
+    height: 90vh;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container h3 {
+    font-size: 2rem;
+}
+
+#excuse {
+    font-size: 3rem;
+    font-weight: bold;
 }
